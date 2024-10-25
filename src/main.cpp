@@ -105,10 +105,7 @@ void loop()
     }
     Serial.printf("Freq = %d\n", toneFrequency);
     tone(buzzerPin, toneFrequency, 500); // Play tone for 500ms
-    // }
-    // else{
-    //   Serial.printf("within tolerance range by %d, rssi = %d\n", abs(closestRSSI - RSSI_TH), closestRSSI);
-    // }
+
   }
   else
   {
